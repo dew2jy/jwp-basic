@@ -65,5 +65,9 @@ public class User {
             return false;
         return true;
     }
-
+    
+    public static UserBuilder builder() {
+    	return new UserBuilder();
+    }
+    
 }
